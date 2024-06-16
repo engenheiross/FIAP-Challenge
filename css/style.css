@@ -31,7 +31,7 @@ nav, ul {
     justify-content: space-between;
 }
 
-#noticias {
+#proxima-corrida {
     margin-bottom: 2rem;
     background-image: var(--gray);
     width: 100%;
@@ -39,11 +39,15 @@ nav, ul {
 
 #noticias-container {
     display: flex; 
+    flex-direction: column;
     justify-content: space-between;
+
+    gap: 3rem;
 }
 
 .noticia-img {
-    width: 400px;
+    width: 100%;
+    height: 150px;
 }
 
 #ultima-corrida {
@@ -83,8 +87,18 @@ nav, ul {
     background-image: var(--gray);
 }
 
-#proxima-corrida {
+#noticias {
     width: 40%;
     height: 700px;
-    background-image: url("../img/formula\ e.webp");
+
+    background-image: var(--gray);
+}
+
+
+section {
+    padding: 2rem;
+}
+
+h1 {
+    padding-bottom: 2rem;
 }
