@@ -20,7 +20,7 @@
 nav, ul {
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 #main {
@@ -62,15 +62,27 @@ nav, ul {
     gap: .2rem;
 
 }
+
+#race-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
 .tabela-item {
     display: flex;
     align-items: center;
     gap: 6rem;
+    border-bottom: 2px ridge;
 }
 .piloto {
     display: flex;
     gap: 1.4rem;
     align-items: center;
+    border-bottom: 2px ridge;
+    
+    
 }
 .posicao {
     background-color: blue;
@@ -82,13 +94,14 @@ nav, ul {
 }
 
 
+
 #tabela {
-    width: 40%;
+    width: 45%;
     background-image: var(--gray);
 }
 
 #noticias {
-    width: 40%;
+    width: 45%;
     height: 700px;
 
     background-image: var(--gray);
@@ -101,4 +114,44 @@ section {
 
 h1 {
     padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*teco*/
+.award-container {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+.trophy-icon {
+    font-size: 2em;
+    color: gold;
+}
+.pilot-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+.pilot-name {
+    font-size: 1.2em;
+    font-weight: bold;
 }
