@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 8rem;
+    background-color: gray;
+    height: 4rem;
+}
+
+nav, ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+#main {
+    padding: 2rem;
+}
+
+#noticias {
+    padding-bottom: 2rem;
+}
+
+#noticias-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticia-img {
+    width: 400px;
+}
