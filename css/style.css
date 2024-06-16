@@ -1,3 +1,7 @@
+:root {
+    --gray: linear-gradient(to right, gray, lightgray);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding-inline: 8rem;
-    background-color: gray;
+    background-image: var(--gray);
     height: 4rem;
 }
 
@@ -21,17 +25,66 @@ nav, ul {
 
 #main {
     padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #noticias {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    background-image: var(--gray);
+    width: 100%;
 }
 
 #noticias-container {
-    display: flex;
+    display: flex; 
     justify-content: space-between;
 }
 
 .noticia-img {
     width: 400px;
+}
+
+#ultima-corrida {
+    margin-bottom: 2rem;
+    background-image: var(--gray);
+    width: 100%;
+}
+
+#ultima-corrida-tabela {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+
+}
+.tabela-item {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+.piloto {
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+}
+.posicao {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+}
+.piloto-foto {
+    height: 1rem;
+}
+
+
+#tabela {
+    width: 40%;
+    background-image: var(--gray);
+}
+
+#proxima-corrida {
+    width: 40%;
+    height: 700px;
+    background-image: url("../img/formula\ e.webp");
 }
