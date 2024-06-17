@@ -1,8 +1,5 @@
 # FIAP Challenge
 
-
-[Link para demonstração](https://engenheiross.github.io/cassino/)
-
 # Membros do Grupo 
 - Glauco Heitor Gonçalves e Silva - RM 555978
 - Lucas Himeno do Carmo - RM 555069
@@ -13,6 +10,10 @@
 # Site da Mahindra Tech Formula E
 
 Bem-vindo ao repositório do site da Mahindra Tech Formula E! Este projeto foi desenvolvido para oferecer aos entusiastas da Fórmula E atualizações em tempo real sobre informações de corridas, estatísticas da última corrida e classificação atual do campeonato.
+
+
+![image](https://github.com/engenheiross/FIAP-Challenge/assets/136825566/1ae3f77e-9fb0-4bfd-a67b-250c4bb7b153)
+
 
 ## Sumário
 
@@ -54,9 +55,8 @@ A tabela de classificação do campeonato é preenchida dinamicamente com base n
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para quaisquer melhorias ou novos recursos que gostaria de ver adicionados.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+# Demonstração
+[Link para demonstração](https://engenheiross.github.io/cassino/)
 
 ---
 
