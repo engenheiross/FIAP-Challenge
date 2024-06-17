@@ -1,10 +1,12 @@
 :root {
-    --gray: linear-gradient(to right, gray, lightgray);
+    --gray: linear-gradient(to right, black, black);
 }
 
 * {
     padding: 0;
     margin: 0;
+
+    color: white;
 
 }
 
@@ -66,8 +68,20 @@ nav, ul {
 #race-stats {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-around;
     padding: 2rem;
+}
+
+#stats ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#stats li {
+    background-color: blue;
+    padding: 1rem;
+    color: white;
 }
 
 .tabela-item {
@@ -78,6 +92,7 @@ nav, ul {
 }
 .piloto {
     display: flex;
+    height: 6rem;
     gap: 1.4rem;
     align-items: center;
     border-bottom: 2px ridge;
@@ -87,10 +102,14 @@ nav, ul {
 .posicao {
     background-color: blue;
     color: white;
+    height: 1rem;
     padding: 1rem;
+    display: flex;
+    align-items: center;
 }
 .piloto-foto {
-    height: 1rem;
+    height: 4rem;
+    border-radius: 2rem;
 }
 
 
@@ -132,14 +151,15 @@ h1 {
 
 
 
-
 /*teco*/
 .award-container {
-    border: 2px solid #ddd;
+    color: white;
     border-radius: 10px;
     padding: 20px;
     margin: 10px 0;
     text-align: center;
+
+    background-color: blue;
 }
 .trophy-icon {
     font-size: 2em;
