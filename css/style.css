@@ -296,3 +296,32 @@ h1 {
     width: 100%;
     background: var(--secondary-color);
 }
+
+
+
+@media screen and (max-width: 767px) {
+    nav ul {
+        visibility: hidden;
+    }
+
+    #corrida {
+        flex-direction: column;
+        align-items: center;
+    }
+    #corrida img {
+        width: 300px;
+    }
+
+    #stats {
+        visibility: hidden;
+    }
+    #race-stats {
+        flex-direction: column;
+    }
+    #awards {
+        
+        order: -5500;
+        justify-self: flex-start;
+    }
+    
+}
