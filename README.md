@@ -10,7 +10,7 @@
 - Otavio Santos de Lima Ferrao - RM 556452
 - Gabriel Guilherme Leste - RM 558638
 
-- # Site da Mahindra Tech Formula E
+# Site da Mahindra Tech Formula E
 
 Bem-vindo ao repositório do site da Mahindra Tech Formula E! Este projeto foi desenvolvido para oferecer aos entusiastas da Fórmula E atualizações em tempo real sobre informações de corridas, estatísticas da última corrida e classificação atual do campeonato.
 
@@ -34,29 +34,21 @@ O site da Mahindra Tech Formula E é uma plataforma dinâmica criada para fornec
 - **Estatísticas da Última Corrida:** Explore estatísticas e resultados da corrida mais recente da Fórmula E.
 - **Classificação do Campeonato:** Veja a classificação atual de pilotos e equipes no campeonato de Fórmula E, atualizada dinamicamente.
 
-## Instalação
-
-Para executar este projeto localmente, siga estes passos:
-
-1. Clone o repositório:
-   ```
-   git clone https://github.com/MahindraTech/formula-e-website.git
-   ```
-2. Navegue até o diretório do projeto.
-
-3. Abra o arquivo `index.html` no seu navegador da web preferido.
-
-## Uso
-
-Ao carregar o site, você encontrará:
-
-- **Seção da Próxima Corrida:** Detalhes sobre a próxima corrida da Fórmula E.
-- **Seção da Última Corrida:** Estatísticas e insights da corrida mais recente da Fórmula E.
-- **Seção de Classificação:** Classificação atual do campeonato, atualizada dinamicamente.
-
 ## Detalhes do Script
 
-O site utiliza JavaScript para preencher dinamicamente a classificação do campeonato e as informações da última corrida com base em dados pré-definidos dos pilotos.
+O site utiliza JavaScript para preencher dinamicamente a classificação do campeonato e as informações da última corrida com base em dados pré-definidos dos pilotos. Abaixo estão detalhes adicionais sobre como o script opera:
+
+### Dados dos Pilotos
+
+Um array `pilots` contém objetos que representam os pilotos da Fórmula E. Cada objeto inclui informações como o nome do piloto, equipe, país e URL da foto de perfil.
+
+### Estatísticas da Última Corrida
+
+Ao carregar a página, o script gera automaticamente uma seção com as estatísticas da última corrida. Isso inclui informações sobre os principais pilotos da corrida, destacando o vencedor com sua foto e nome.
+
+### Classificação do Campeonato
+
+A tabela de classificação do campeonato é preenchida dinamicamente com base nos dados dos pilotos. O script embaralha a ordem dos pilotos para garantir variedade na classificação exibida. Cada entrada na tabela mostra a posição do piloto, sua foto, nome, equipe e pontuação calculada dinamicamente com base em uma fórmula aleatória.
 
 ## Contribuições
 
