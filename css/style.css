@@ -85,7 +85,6 @@ nav li :hover {
 }
 
 .race-stat {
-    border-bottom: 2px white solid;
 }
 
 #nextrace-picture {
@@ -170,7 +169,8 @@ nav li :hover {
 .tabela-item {
     display: flex;
     align-items: center;
-    gap: 6rem;
+    justify-content: space-between;
+    gap: 1rem;
     border-bottom: 2px black ridge;
 }
 .piloto {
@@ -208,15 +208,19 @@ nav li :hover {
     display: flex;
     flex-direction: column;
 }
-#cabecalho {
-    display:flex;
-    gap: 6rem;
-    align-items: center;
+
+tbody {
+    display: inline-grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-#cabecalho th {
-    background-color: green;
-    text-align: center;
+
+#cabecalho {
+    align-items: center;
+    display: flex;
+    border-bottom: 2px black ridge;
+    justify-content: space-between;
+    margin-left: 1rem;
 }
 
 #noticias {
@@ -322,6 +326,13 @@ h1 {
         
         order: -5500;
         justify-self: flex-start;
+    }
+
+    .tabela-item {
+        justify-content: flex-start;
+    }
+    #cabecalho {
+        visibility: hidden;
     }
     
 }

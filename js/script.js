@@ -86,9 +86,9 @@ for (let i = 0; i<8; i++) {
     pilot.classList.add("piloto");
 
 
-    let pilot_pos = document.createElement("p");
-    pilot_pos.innerHTML = i+1;
-    pilot_pos.classList.add("posicao");
+    let pos = document.createElement("p");
+    pos.innerHTML = i+1;
+    pos.classList.add("posicao");
 
     let pilot_pic = document.createElement('img');
     pilot_pic.src = pilots[i].pictureURL;
@@ -104,7 +104,7 @@ for (let i = 0; i<8; i++) {
     } 
 
 
-    pilot.appendChild(pilot_pos);
+    item.appendChild(pos);
     pilot.appendChild(pilot_pic);
     pilot.appendChild(pilot_name);
     
@@ -129,9 +129,9 @@ for (let i = 0; i<pilots.length; i++) {
     pilot.classList.add("piloto");
 
 
-    let pilot_pos = document.createElement("p");
-    pilot_pos.innerHTML = i+1;
-    pilot_pos.classList.add("posicao");
+    let pos = document.createElement("p");
+    pos.innerHTML = i+1;
+    pos.classList.add("posicao");
 
     let pilot_pic = document.createElement('img');
     pilot_pic.src = pilots[i].pictureURL;
@@ -142,14 +142,28 @@ for (let i = 0; i<pilots.length; i++) {
     pilot_name.classList.add("piloto-nome");
 
 
+    let team = document.createElement('p');
+    team.innerHTML = pilots[i].team;
+    team.classList.add("hide");
+    team.classList.add("equipe");
 
-    pilot.appendChild(pilot_pos);
+    let score = document.createElement('p');
+    score.innerHTML = Math.round(90 - (i + (Math.random() * (5 - 1) + 1))); //subtraindo um numero aleatorio de 1 ate 5
+    score.classList.add("hide");
+    score.classList.add("score");
+
+    item.appendChild(pos);
     pilot.appendChild(pilot_pic);
     pilot.appendChild(pilot_name);
     
 
     item.appendChild(pilot);
-    document.getElementById("classificacao").appendChild(item);
+
+    item.appendChild(team);
+    item.appendChild(score);
+    
+
+    document.getElementById("classificacao").getElementsByTagName("tbody")[0].appendChild(item);
     
 }
 
