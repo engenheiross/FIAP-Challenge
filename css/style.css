@@ -1,5 +1,8 @@
 :root {
-    --gray: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); 
+    --primary-color: rgb(63, 76, 119);
+    --secondary-color: rgb(32, 38, 57);
+    --gray: linear-gradient(112.1deg, var(--secondary-color) 11.4%, var(--primary-color) 70.2%); 
+    --button: rgb(32,38,57);
     --blue: linear-gradient(to right, blue, darkblue);
 }
 
@@ -12,7 +15,7 @@
 }
 
 body {
-    background-color: rgb(63, 76, 119);
+    background-color: var(--primary-color);
 }
 
 #header {
@@ -24,14 +27,23 @@ body {
     height: 4rem;
 }
 
+#header :hover {
+    cursor: pointer;
+}
+
 nav, ul {
     display: flex;
     list-style: none;
     gap: 3rem;
 }
 
+nav li :hover {
+    cursor: pointer;
+    color: crimson;
+}
+
 #main {
-    padding: 2rem;
+    padding-top: 2rem;
     padding-inline: 8rem;
     display: flex;
     flex-direction: row;
@@ -43,13 +55,19 @@ nav, ul {
     margin-bottom: 2rem;
     background-image: var(--gray);
     width: 100%;
+    
+}
+
+#proxima-corrida h2 {
+    margin-top: 2rem;
+    text-align: center;
 }
 
 #corrida {
     justify-content: center;
     align-items: space-around;
     display: flex;
-
+    padding: 2rem;
     gap: 2rem;
 }
 
@@ -67,7 +85,7 @@ nav, ul {
 }
 
 .race-stat {
-    border-bottom: 2px black solid;
+    border-bottom: 2px white solid;
 }
 
 #nextrace-picture {
@@ -86,10 +104,17 @@ nav, ul {
     box-shadow: 2rem;
     box-sizing: border-box;
 
-    background-image: var(--blue);
+    background: var(--button);
     color: white;
 
+    transition: 200ms;
+    
     padding: 1rem;
+}
+
+.btn:hover {
+    background: crimson;
+    cursor: pointer;
 }
 
 #noticias-container {
@@ -146,23 +171,23 @@ nav, ul {
     display: flex;
     align-items: center;
     gap: 6rem;
-    border-bottom: 2px ridge;
+    border-bottom: 2px black ridge;
 }
 .piloto {
     display: flex;
     height: 6rem;
     gap: 1.4rem;
     align-items: center;
-    border-bottom: 2px ridge;
     
     
 }
 .posicao {
-    background-image: var(--blue);
+    background: crimson;
     color: white;
-    height: 4rem;
-    padding: 1rem;
+    height: 6rem;
+    width: 2rem;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .piloto-foto {
@@ -170,11 +195,25 @@ nav, ul {
     border-radius: 2rem;
 }
 
-
-
 #tabela {
+
     width: 100%;
     background-image: var(--gray);
+}
+
+#classificacao {
+    display: flex;
+    flex-direction: column;
+}
+#cabecalho {
+    display:flex;
+    gap: 6rem;
+    align-items: center;
+}
+
+#cabecalho th {
+    background-color: green;
+    text-align: center;
 }
 
 #noticias {
@@ -215,7 +254,9 @@ h1 {
     margin: 10px 0;
     text-align: center;
 
-    background-image: var(--blue);
+    background-image: var(--button);
+
+    border-bottom: 2px black ridge;
 }
 .trophy-icon {
     font-size: 2em;
@@ -230,4 +271,25 @@ h1 {
 .pilot-name {
     font-size: 1.2em;
     font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    text-align: center;
+    width: 100%;
+    background: var(--secondary-color);
 }

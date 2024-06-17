@@ -15,8 +15,8 @@
         <nav>
             <ul>
                 <li><a>Última Corrida</a></li>
-                <li><a>Tabela</a></li>
                 <li><a>Próxima Corrida</a></li>
+                <li><a>Classificações</a></li>
                 <li id="login-btn"><a>Login</a></li>
             </ul>
         </nav>
@@ -26,13 +26,14 @@
 
         <section id="proxima-corrida">
             <h1>Próxima Corrida</h1>
+            <h2>GP da Espanha</h2>
             <div id="corrida">
-                <div id="nextrace-data">
-                    <div id]]="nextrace-place" class="race-stat">SHANGHAI</div>
+                <div id="nextrace-data" class="corrida-item">
+                    <div id]]="nextrace-place" class="race-stat">MADRID</div>
                     <div id="nextrace-date" class="race-stat">Data: 22/06/2024</div>
                 </div>
-                <img id="nextrace-picture" src="./img/formula e.webp" alt="foto">
-                <div id="buttons">
+                <img id="nextrace-picture" src="./img/formula e.webp" alt="foto" class="corrida-item">
+                <div id="buttons" class="corrida-item">
                     <div id="watch-button" class="btn">Assistir no YouTube</div>
                     <div id="purchase-button" class="btn">Comprar Ingresso</div>
                 </div>
@@ -96,52 +97,23 @@
                     </section>
 
         <section id="tabela">
-            <h1>Tabela</h1>
+            <h1>Classificações</h1>
 
-            <div class="piloto">
-                <p class="posicao">1</p>
-                <img class="piloto-foto" src="./img/piloto-foto.png"></img>
-                <p class="piloto-nome">Piloto</p>
-            </div>
+            <table id="classificacao">
+                <tbody>
+                    <tr class="tabela-item">
+                        <th>#</th>
+                        <th>Piloto</th>
+                    </tr>
+                </tbody>
+            </table>
 
-            <div class="piloto">
-                <p class="posicao">1</p>
-                <img class="piloto-foto" src="./img/piloto-foto.png"></img>
-                <p class="piloto-nome">Piloto</p>
-            </div>
-
-            <div class="piloto">
-                <p class="posicao">1</p>
-                <img class="piloto-foto" src="./img/piloto-foto.png"></img>
-                <p class="piloto-nome">Piloto</p>
-            </div>
-
-            <div class="piloto">
-                <p class="posicao">1</p>
-                <img class="piloto-foto" src="./img/piloto-foto.png"></img>
-                <p class="piloto-nome">Piloto</p>
-            </div>
-            
-            <div class="piloto">
-                <p class="posicao">1</p>
-                <img class="piloto-foto" src="./img/piloto-foto.png"></img>
-                <p class="piloto-nome">Piloto</p>
-            </div>
-
-            <div class="piloto">
-                <p class="posicao">1</p>
-                <img class="piloto-foto" src="./img/piloto-foto.png"></img>
-                <p class="piloto-nome">Piloto</p>
-            </div>
+            <!--Adicionar pilotos via js-->
         </section>
-
-
-
-        <section id="footer">
-
-        </section>
-
     </div>
+    <section id="footer">
+        <h4>Sprint 1 da Challenge da FIAP - Protótipo feito para a Mahindra Tech</h4>
+    </section>
 
     <script src="./js/script.js"></script>
 </body>
