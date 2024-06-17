@@ -55,8 +55,8 @@ A tabela de classificação do campeonato é preenchida dinamicamente com base n
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para quaisquer melhorias ou novos recursos que gostaria de ver adicionados.
 
 # Demonstração
-[Link para demonstração](https://engenheiross.github.io/cassino/)
+## [Link para demonstração do Site](https://engenheiross.github.io/cassino/)
 
 ---
 
-Explore e contribua para o projeto do site da Mahindra Tech Formula E. Para dúvidas ou feedback, entre em contato conosco pelo e-mail [info@mahindratech.com](mailto:info@mahindratech.com).
+Explore e contribua para o projeto do site da Mahindra Tech Formula E. Para dúvidas ou feedback, entre em contato conosco pelo e-mail [glaucoheitor2@hotmail.com](mailto:glaucoheitor2@hotmail.com).
