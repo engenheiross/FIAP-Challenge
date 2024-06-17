@@ -194,6 +194,9 @@ nav li :hover {
     height: 4rem;
     border-radius: 2rem;
 }
+.piloto-nome {
+    font-weight: bold;
+}
 
 #tabela {
 
@@ -263,7 +266,7 @@ h1 {
     color: gold;
 }
 .pilot-photo {
-    width: 100%;
+    width: 150px;
     height: auto;
     border-radius: 50%;
     margin: 10px 0;

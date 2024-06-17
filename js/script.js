@@ -73,7 +73,6 @@ let pilots = [
     },
 ];
 
-
 // Classificações da Última Corrida
 for (let i = 0; i<8; i++) {
 
@@ -100,7 +99,7 @@ for (let i = 0; i<8; i++) {
     pilot_name.classList.add("piloto-nome");
 
     if(i == 0) { // Award de Ganhador da Corrida
-        document.getElementById("award-ganhador-corrida").getElementsByTagName("img").src = pilot_pic;
+        document.getElementById("award-ganhador-corrida").getElementsByTagName("img")[0].src = pilots[i].pictureURL;
         document.getElementById("award-ganhador-corrida").getElementsByClassName("pilot-name")[0].innerHTML = pilots[i].name;
     } 
 
@@ -114,6 +113,8 @@ for (let i = 0; i<8; i++) {
     document.getElementById("ultima-corrida-tabela").appendChild(item);
     
 }
+
+shuffle(pilots); //Embaralhando os pilotos para ter uma ordem diferente na classificação da liga
 
 // Classificações da Liga
 for (let i = 0; i<pilots.length; i++) {
@@ -151,3 +152,20 @@ for (let i = 0; i<pilots.length; i++) {
     document.getElementById("classificacao").appendChild(item);
     
 }
+
+
+
+
+
+function shuffle(array) {
+    let currentIndex = array.length;
+  
+    while (currentIndex != 0) {
+  
+      let randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  }
