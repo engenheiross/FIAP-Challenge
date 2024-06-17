@@ -125,11 +125,11 @@ for (let i = 0; i<pilots.length; i++) {
     item.classList.add("tabela-item");
 
 
-    let pilot = document.createElement('div');
+    let pilot = document.createElement('th');
     pilot.classList.add("piloto");
 
 
-    let pos = document.createElement("p");
+    let pos = document.createElement("th");
     pos.innerHTML = i+1;
     pos.classList.add("posicao");
 
@@ -137,18 +137,18 @@ for (let i = 0; i<pilots.length; i++) {
     pilot_pic.src = pilots[i].pictureURL;
     pilot_pic.classList.add("piloto-foto");
 
-    let pilot_name = document.createElement('p');
+    let pilot_name = document.createElement('th');
     pilot_name.innerHTML = pilots[i].name;
     pilot_name.classList.add("piloto-nome");
 
 
-    let team = document.createElement('p');
+    let team = document.createElement('th');
     team.innerHTML = pilots[i].team;
     team.classList.add("hide");
     team.classList.add("equipe");
 
-    let score = document.createElement('p');
-    score.innerHTML = Math.round(90 - (i + (Math.random() * (5 - 1) + 1))); //subtraindo um numero aleatorio de 1 ate 5
+    let score = document.createElement('th');
+    score.innerHTML = Math.round(90 - i - (Math.random() * (1 - 0))); //subtraindo 0 ou 1 aleatoriamente
     score.classList.add("hide");
     score.classList.add("score");
 

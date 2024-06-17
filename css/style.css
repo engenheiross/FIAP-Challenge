@@ -4,6 +4,8 @@
     --gray: linear-gradient(112.1deg, var(--secondary-color) 11.4%, var(--primary-color) 70.2%); 
     --button: rgb(32,38,57);
     --blue: linear-gradient(to right, blue, darkblue);
+
+    --third-color: #AC3E54;
 }
 
 * {
@@ -22,7 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 8rem;
+    padding-right: 8rem;
     background: var(--gray);
     height: 4rem;
 }
@@ -31,15 +33,23 @@ body {
     cursor: pointer;
 }
 
+#brand {
+    align-items: center;
+    background: var(--third-color);
+    height: 4rem;
+    padding-inline: 8rem;
+}
+
 nav, ul {
     display: flex;
     list-style: none;
     gap: 3rem;
+    align-items: center;
 }
 
 nav li :hover {
     cursor: pointer;
-    color: crimson;
+    color: var(--third-color);
 }
 
 #main {
@@ -72,6 +82,7 @@ nav li :hover {
 }
 
 #nextrace-data {
+    background-color: var(--third-color);
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -112,7 +123,7 @@ nav li :hover {
 }
 
 .btn:hover {
-    background: crimson;
+    background: var(--third-color);
     cursor: pointer;
 }
 
@@ -153,6 +164,7 @@ nav li :hover {
     margin-right: 2rem;
 }
 #stats ul {
+    background-color: var(--third-color);
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -161,6 +173,7 @@ nav li :hover {
 }
 
 #stats li {
+    
     padding: 1rem;
     
     border-bottom: 2px black ridge;
@@ -171,6 +184,7 @@ nav li :hover {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    padding-right: 1rem;
     border-bottom: 2px black ridge;
 }
 .piloto {
@@ -182,15 +196,18 @@ nav li :hover {
     
 }
 .posicao {
-    background: crimson;
+    background: var(--third-color);
     color: white;
     height: 6rem;
     width: 2rem;
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
 }
 .piloto-foto {
+
+    flex-grow: 3;
     height: 4rem;
     border-radius: 2rem;
 }
@@ -214,13 +231,19 @@ tbody {
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+th {
+    font-weight: bold;
+}
+
 
 #cabecalho {
     align-items: center;
     display: flex;
     border-bottom: 2px black ridge;
     justify-content: space-between;
-    margin-left: 1rem;
+    padding-inline: 1rem;
+
+    background-color: var(--third-color);
 }
 
 #noticias {
@@ -261,7 +284,7 @@ h1 {
     margin: 10px 0;
     text-align: center;
 
-    background-image: var(--button);
+    background: var(--third-color);
 
     border-bottom: 2px black ridge;
 }
@@ -304,6 +327,10 @@ h1 {
 
 
 @media screen and (max-width: 767px) {
+    #main {
+        padding: 1rem;
+    }
+
     nav ul {
         visibility: hidden;
     }
@@ -321,6 +348,7 @@ h1 {
     }
     #race-stats {
         flex-direction: column;
+        gap: 12rem;
     }
     #awards {
         
@@ -332,7 +360,6 @@ h1 {
         justify-content: flex-start;
     }
     #cabecalho {
-        visibility: hidden;
     }
     
 }
