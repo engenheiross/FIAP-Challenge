@@ -114,7 +114,7 @@ for (let i = 0; i<8; i++) {
     
 }
 
-shuffle(pilots); //Embaralhando os pilotos para ter uma ordem diferente na classificação da liga
+shuffle(pilots); //Embaralhando a lista de pilotos para ter uma ordem diferente na classificação da liga
 
 // Classificações da Liga
 for (let i = 0; i<pilots.length; i++) {
@@ -167,8 +167,14 @@ for (let i = 0; i<pilots.length; i++) {
     
 }
 
-
-
+watchButton = document.getElementById("watch-button");
+purchaseButton = document.getElementById("purchase-button");
+watchButton.addEventListener("click", function() {
+    window.open("https://youtu.be/R1fYQ7Vq3v4?si=e9v0xrEkCSw8L_CB");
+})
+purchaseButton.addEventListener("click", function() {
+    window.open("https://www.fiaformulae.com/pt-br");
+})
 
 
 function shuffle(array) {
