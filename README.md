@@ -19,8 +19,6 @@ Bem-vindo ao repositório do site da Mahindra Tech Formula E! Este projeto foi d
 
 - [Introdução](#introdução)
 - [Recursos](#recursos)
-- [Instalação](#instalação)
-- [Uso](#uso)
 - [Detalhes do Script](#detalhes-do-script)
 - [Demonstração](#demonstração)
 
