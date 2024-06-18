@@ -36,7 +36,7 @@ O site da Mahindra Tech Formula E é uma plataforma dinâmica criada para fornec
 
 ## Detalhes do Script
 
-O site utiliza JavaScript para preencher dinamicamente a classificação do campeonato e as informações da última corrida com base em dados pré-definidos dos pilotos. Abaixo estão detalhes adicionais sobre como o script opera:
+O site utiliza JavaScript para preencher dinamicamente a classificação do campeonato e as informações da última corrida com base em dados pré-definidos dos pilotos. <b>Recarregue a página para mudar as classificações!</b> Abaixo estão detalhes adicionais sobre como o script opera:
 
 ### Dados dos Pilotos
 
