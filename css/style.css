@@ -338,6 +338,8 @@ h1 {
 
 
 #footer {
+    margin-top: 2rem;
+    padding: .2rem;
     text-align: center;
     width: 100%;
     background: var(--secondary-color);
