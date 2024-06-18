@@ -1,8 +1,5 @@
 # FIAP Challenge
 
-
-[Link para demonstração](https://engenheiross.github.io/cassino/)
-
 # Membros do Grupo 
 - Glauco Heitor Gonçalves e Silva - RM 555978
 - Lucas Himeno do Carmo - RM 555069
@@ -14,6 +11,10 @@
 
 Bem-vindo ao repositório do site da Mahindra Tech Formula E! Este projeto foi desenvolvido para oferecer aos entusiastas da Fórmula E atualizações em tempo real sobre informações de corridas, estatísticas da última corrida e classificação atual do campeonato.
 
+
+![image](https://github.com/engenheiross/FIAP-Challenge/assets/136825566/1ae3f77e-9fb0-4bfd-a67b-250c4bb7b153)
+
+
 ## Sumário
 
 - [Introdução](#introdução)
@@ -21,8 +22,7 @@ Bem-vindo ao repositório do site da Mahindra Tech Formula E! Este projeto foi d
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Detalhes do Script](#detalhes-do-script)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
+- [Demonstração](#demonstração)
 
 ## Introdução
 
@@ -54,10 +54,9 @@ A tabela de classificação do campeonato é preenchida dinamicamente com base n
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para quaisquer melhorias ou novos recursos que gostaria de ver adicionados.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+# Demonstração
+## [Link para demonstração do Site](https://engenheiross.github.io/FIAP-Challenge/)
 
 ---
 
-Explore e contribua para o projeto do site da Mahindra Tech Formula E. Para dúvidas ou feedback, entre em contato conosco pelo e-mail [info@mahindratech.com](mailto:info@mahindratech.com).
+Explore e contribua para o projeto do site da Mahindra Tech Formula E. Para dúvidas ou feedback, entre em contato conosco pelo e-mail [glaucoheitor2@hotmail.com](mailto:glaucoheitor2@hotmail.com).
