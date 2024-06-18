@@ -55,7 +55,7 @@ A tabela de classificação do campeonato é preenchida dinamicamente com base n
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para quaisquer melhorias ou novos recursos que gostaria de ver adicionados.
 
 # Demonstração
-## [Link para demonstração do Site](https://engenheiross.github.io/cassino/)
+## [Link para demonstração do Site](https://engenheiross.github.io/cassino/](https://engenheiross.github.io/FIAP-Challenge/)
 
 ---
 
