@@ -45,12 +45,28 @@ nav, ul {
     list-style: none;
     gap: 3rem;
     align-items: center;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: none;
+    font-style: none;
+    
 }
 
 nav li :hover {
     cursor: pointer;
     color: var(--third-color);
 }
+
+#login-btn {
+    background-color: var(--secondary-color);
+    padding-inline: 2rem;
+    padding: 1rem;
+    transition: 200ms;
+}
+
 
 #main {
     padding-top: 2rem;
@@ -125,6 +141,7 @@ nav li :hover {
 .btn:hover {
     background: var(--third-color);
     cursor: pointer;
+    color: white;
 }
 
 #noticias-container {
