@@ -9,7 +9,7 @@
 
 # Site da Mahindra Tech Formula E
 
-Bem-vindo ao repositório do site da Mahindra Tech Formula E! Este projeto foi desenvolvido para oferecer aos entusiastas da Fórmula E atualizações em tempo real sobre informações de corridas, estatísticas da última corrida e classificação atual do campeonato.
+Bem-vindo ao repositório do protótipo de um site feito para Formula E! Este projeto foi desenvolvido para oferecer aos entusiastas da Fórmula E atualizações em tempo real sobre informações de corridas, estatísticas da última corrida e classificação atual do campeonato.
 
 
 ![image](https://github.com/engenheiross/FIAP-Challenge/assets/136825566/1ae3f77e-9fb0-4bfd-a67b-250c4bb7b153)
@@ -24,7 +24,7 @@ Bem-vindo ao repositório do site da Mahindra Tech Formula E! Este projeto foi d
 
 ## Introdução
 
-O site da Mahindra Tech Formula E é uma plataforma dinâmica criada para fornecer insights abrangentes sobre o campeonato de Fórmula E. A página inicial do site conta com seções dedicadas aos detalhes da próxima corrida, estatísticas da última corrida e a classificação atual do campeonato.
+Este protótipo de home page de Formula E é uma plataforma dinâmica criada para fornecer insights abrangentes sobre o campeonato de Fórmula E. A página inicial do site conta com seções dedicadas aos detalhes da próxima corrida, estatísticas da última corrida e a classificação atual do campeonato.
 
 ## Recursos
 
